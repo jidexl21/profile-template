@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Olajide Fagbuji">
+    <meta name="generator" content="">
+    <title>Profile Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+   
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Carousel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" src="images/DSC03579-Edit-1.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+       
+        <div class="container">
+          <!-- <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="intro">
+  <div class="container center-text">
+    <div class="content py-5 ">
+      <h3 class="saira-condensed-semibold text-center">I am Onaopemipo Oyadiran</h3>
+      <p>I am fearless in pursuing my ambition and delivering Value. I am a Digital Transformation Strategist, growth leader, and technology Visionary—a seasoned CXO Candidate with vast Knowledge in the significant technology domain.</p>
+      <p>Currently an alumni of Carnegie Mellon University (Heinz College of Information Systems and Public Policy) with proven records across EMEA</p>
+
+      <p class="mt3"><a class="btn btn-secondary btn-lg btn-round-lg pt3">Schedule a call</a></p>
+   </div>
+  </div>
+
+</div>
+<div class="bg-off-white-split-reverse">
+  <div class="container">
+    <div class="row featurette">
+      <div class="col-md-6 center-text">
+        
+        <h2 class="lead">My journey reflects a passion for delivering the perceived impossible
+          - (Impossible is NOTHING) 
+          (providing Technology & Architecture Leadership to Corporations Building Future-Ready Digital & Data Capabilities.)
+        </h2>
+      </div>
+      <div class="col-md-6">
+        <p>
+        In the vast ocean of technology, each wave and tide has guided me to the shores of innovation. My journey reflects a passion for delivering value, steering EMEA's digital future, and leveraging Enterprise Data and Digital Transformation.
+        </p>
+        </p>
+        Recognizing the role of technology as a crucial enabler, I've cultivated expertise across diverse domains. As the Chief Enterprise Architect, I collaborate closely with executives to make organizational data actionable in today's dynamic technological landscape.
+        </p>
+        </p>
+        My trailblazing journey includes orchestrating a digital transformation blueprint for Access Corporation, contributing to a 25% revenue growth. Success extends to key players like First Bank of Nigeria, Polaris Bank, Nedbank South Africa, and Ahlibank, affirming their dominance in the technology and data landscape across EMEA.
+        </p>
+        </p>
+        As a go-to resource for Technology Transformation, Data Transformation, and Digital Automation, I am a lifelong learner committed to achieving goals for key stakeholders globally.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="spacer-textured">
+Textured
+</div>
+
+<div class="bulleted">
+  <div class="container">
+  <div class="row center-text">
+    <h2 class="text-start">Competencies</h2>
+    <div class="col-lg-4">
+      
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+      <h2 class="fw-normal">Heading</h2>
+      <p>Strategic competencies 
+        Shaping the future of an organisation  through technology. Identifying and understanding emerging technologies with disruptive potential. 
+        Leading the organisation's technology innovation efforts.
+        Aligning technology vision with business objectives and market trends.</p>
+      <p><a class="btn btn-secondary" href="#">Read more</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+      <h2 class="fw-normal">Tactical competencies</h2>
+      <p>
+        Shaping the future of an organisation  through technology. 
+        Identifying and understanding emerging technologies with disruptive potential. 
+        Leading the organisation's technology innovation efforts. Aligning technology vision with business objectives and market trends.
+      </p>
+      <p><a class="btn btn-secondary" href="#">Read more</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+      <h2 class="fw-normal">Heading</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-secondary" href="#">Read more</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div>
+</div>
+</div>
+<!-- timeline -->
+<div class="container">
+  <div class="page-header">
+      <h1 id="timeline">Timeline</h1>
+  </div>
+  <ul class="timeline">
+      <li>
+        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            <hr>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          </div>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row blog">
+      <div class="col-md-12">
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+              <!-- <ol class="carousel-indicators">
+                  <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#blogCarousel" data-slide-to="1"></li>
+              </ol> -->
+
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                      </div>
+                      <!--.row-->
+                  </div>
+                  <!--.item-->
+
+                  <div class="carousel-item">
+                      <div class="row">
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                          <div class="col-md-3">
+                              <a href="#">
+                                  <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                              </a>
+                          </div>
+                      </div>
+                      <!--.row-->
+                  </div>
+                  <!--.item-->
+
+              </div>
+              <!--.carousel-inner-->
+          </div>
+          <!--.Carousel-->
+
+      </div>
+  </div>
+</div>
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+      
+  </body>
+</html>

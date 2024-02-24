@@ -1,0 +1,4 @@
+[
+    {"src":"bootstrap/dist/css/bootstrap.min.css", "dest":"lib/bootstrap/css/bootstrap.min.css"},
+    {"src":"bootstrap/dist/js/bootstrap.bundle.min.js", "dest":"lib/bootstrap/js/bootstrap.bundle.min.js"}
+]
