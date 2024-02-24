@@ -192,6 +192,7 @@
             position: relative;
             -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            background-color: #fff;
         }
 
             .timeline > li > .timeline-panel:before {
@@ -342,4 +343,15 @@
 
 .blog .carousel-indicators .active {
 background: #707070;
+}
+
+.partner-logos {
+  min-height: 140px;
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+}
+
+.bg-peach{
+  background-color: #fbe1db;
 }
