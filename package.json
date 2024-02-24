@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "build": "node deps"
+    "build": "node scripts/deps"
   },
   "author": "",
   "license": "ISC"
