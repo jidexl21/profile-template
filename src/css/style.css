@@ -355,3 +355,24 @@ background: #707070;
 .bg-peach{
   background-color: #fbe1db;
 }
+
+.img-cap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #293241;
+  min-height: 200px;
+  color: #efefef;
+  margin-bottom: -50px;
+}
+
+.texture-2 {
+  background-color: url(../images/texture-2.jpg);
+}
+
+.bg-gray {
+  background-color: #f5f5f7;
+}
