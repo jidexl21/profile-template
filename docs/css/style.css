@@ -376,3 +376,14 @@ footer {
 .bg-gray {
   background-color: #f5f5f7;
 }
+
+.card-content {
+  min-height: 20vh;
+}
+
+h2.fw-normal{
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold ;
+  padding: 15px 0 5px;
+}
