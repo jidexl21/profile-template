@@ -1,4 +1,5 @@
 [
     {"src":"bootstrap/dist/css/bootstrap.min.css", "dest":"lib/bootstrap/css/bootstrap.min.css"},
-    {"src":"bootstrap/dist/js/bootstrap.bundle.min.js", "dest":"lib/bootstrap/js/bootstrap.bundle.min.js"}
+    {"src":"bootstrap/dist/js/bootstrap.bundle.min.js", "dest":"lib/bootstrap/js/bootstrap.bundle.min.js"},
+    {"src":"jquery/dist/jquery.min.js", "dest":"lib/jquery/js/jquery.min.js"}
 ]

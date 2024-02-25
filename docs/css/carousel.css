@@ -13,22 +13,22 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+.main-banner .carousel {
   /* margin-bottom: 4rem; */
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.main-banner .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
-.carousel-item {
+.main-banner .carousel-item {
   height: 32rem;
   position: relative;
   background-color: #2f2e34;
 }
-.carousel-item > img {
+.main-banner .carousel-item > img {
   position: absolute;
   top: 0;
   left: 50%;
@@ -92,4 +92,23 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
 }

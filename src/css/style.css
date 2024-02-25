@@ -370,7 +370,7 @@ footer {
 }
 
 .texture-2 {
-  background-color: url(../images/texture-2.jpg);
+  background-image: url(../images/texture-2.jpg);
 }
 
 .bg-gray {
