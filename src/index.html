@@ -28,6 +28,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
   </head>
   <body>
     
@@ -117,7 +119,10 @@
       <p>I am fearless in pursuing my ambition and delivering Value. I am a Digital Transformation Strategist, growth leader, and technology Visionary—a seasoned CXO Candidate with vast Knowledge in the significant technology domain.</p>
       <p>Currently an alumni of Carnegie Mellon University (Heinz College of Information Systems and Public Policy) with proven records across EMEA</p>
 
-      <p class="mt3"><a class="btn btn-secondary btn-lg btn-round-lg pt3">Schedule a call</a></p>
+      <p class="mt3"><a class="btn btn-secondary btn-lg btn-round-lg pt3" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jidexl21'});return false;">Schedule a call</a></p>
+<!-- Calendly link widget begin -->
+
+<!-- Calendly link widget end -->
    </div>
   </div>
 
@@ -416,14 +421,16 @@
 
   </footer>
 
-
-
     <script src="lib/jquery/js/jquery.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
-
-      
+    <style>
+      div#root > div {
+        background-color: transparent;
+      }
+    </style>
 
 </main>
 </body>
