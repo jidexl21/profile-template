@@ -41,7 +41,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
@@ -50,6 +50,17 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#education" tabindex="-1" >Education</a>
+          </li>
+        </ul>
+        <ul class="availability navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Available in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">North America</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education" tabindex="-1" >Nigeria</a>
           </li>
         </ul>
         <!-- <form class="d-flex">
@@ -61,7 +72,10 @@
   </nav>
 </header>
 <main>
-
+ <div class="floating-btn">
+  <div>Speaking Engagement</div>
+  <div><a href="#">Invite</a></div>
+ </div> 
   <div id="myCarousel" class="main-banner carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -159,12 +173,12 @@
 &nbsp;
 </div>
 
-<div class="bulleted py-5">
+<div class="bulleted py-5 bg-gray">
   <div class="container">
   <div class="row">
     <h2 class="text-start py-3">Competencies</h2>
-    <div class="col-lg-4">
-      <div class="img-cap"><img src="images/icon1.jpg"/></div>
+    <div class="col-lg-4 bg-white">
+      <div class="img-cap"><img src="images/icon1.jpg" class="round"/></div>
       <h2 class="fw-normal">Strategic Competencies</h2>
       <div class="card-content">
         <p>Strategic competencies 
@@ -172,10 +186,10 @@
           Leading the organisation's technology innovation efforts.
           Aligning technology vision with business objectives and market trends.</p>
       </div>
-      <p class="text-center"><a class="btn btn-secondary btn-round" href="#">Read more</a></p>
+      <p class="text-center"><a class="btn btn-secondary btn-round" href="javascript:void(0)" role="tab-btn" target="#bubbles-tab-0" >Read more</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <div class="img-cap"> <img src="images/icon2.jpg"/></div>
+      <div class="img-cap"> <img src="images/icon2.jpg" class="round"/></div>
       <h2 class="fw-normal">Tactical competencies</h2>
       <div class="card-content">
         <p>
@@ -184,10 +198,10 @@
           Leading the organisation's technology innovation efforts. Aligning technology vision with business objectives and market trends.
         </p>
       </div>
-      <p class="text-center"><a class="btn btn-secondary btn-round" href="#">Read more</a></p>
+      <p class="text-center"><a class="btn btn-secondary btn-round" role="tab-btn" target="#bubbles-tab-1" href="javascript:void(0)">Read more</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <div class="img-cap"> <img src="images/icon3.jpg"/></div>
+      <div class="img-cap"> <img src="images/icon3.jpg" class="round"/></div>
       <h2 class="fw-normal">Operational competencies </h2>
       <div class="card-content">
       <p>
@@ -197,8 +211,38 @@
         Aligning technology vision with business objectives and market trends..</p>
 
       </div>
-      <p class="text-center" ><a class="btn btn-secondary btn-round" href="#">Read more</a></p>
+      <p class="text-center" ><a class="btn btn-secondary btn-round" role="tab-btn" target="#bubbles-tab-2" href="javascript:void(0)">Read more</a></p>
     </div><!-- /.col-lg-4 -->
+  </div>
+  <div class="row">
+    <div class="bubbles"> 
+      <div id= "bubbles-tab-0" class="bubble-container tab-pane active" role="tabpanel" aria-labelledby="bubbles-tab-0">
+        <div class="bubble round">Data Governance</div>
+        <div class="bubble round">Technology visionary</div>
+        <div class="bubble round">Data visionary</div>
+        <div class="bubble round">Technology Governance</div>
+        <div class="bubble round">Cloud Strategy</div>
+        <div class="bubble round">Digital Maturity</div>
+      </div>
+
+      <div id= "bubbles-tab-1" class="bubble-container tab-pane" role="tabpanel" aria-labelledby="bubbles-tab-1">
+        <div class="bubble round">Data Governance 2</div>
+        <div class="bubble round">Technology visionary</div>
+        <div class="bubble round">Data visionary</div>
+        <div class="bubble round">Technology Governance</div>
+        <div class="bubble round">Cloud Strategy</div>
+        <div class="bubble round">Digital Maturity</div>
+      </div>
+
+      <div id= "bubbles-tab-2" class="bubble-container tab-pane" role="tabpanel" aria-labelledby="bubbles-tab-2">
+        <div class="bubble round">Data Governance 3</div>
+        <div class="bubble round">Technology visionary</div>
+        <div class="bubble round">Data visionary</div>
+        <div class="bubble round">Technology Governance</div>
+        <div class="bubble round">Cloud Strategy</div>
+        <div class="bubble round">Digital Maturity</div>
+      </div>
+    </div>
   </div>
 </div>
 </div>
