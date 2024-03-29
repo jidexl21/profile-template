@@ -22,7 +22,12 @@ jQuery(function($) {
     $(this).addClass("viewing").siblings().removeClass("viewing")
 
     $(".tab-pane.active div.bubble.round").eq(0).each(function(){
-      if(this == curr){ console.log("on current"); return }
+      if(this == curr){ 
+        console.log("on current"); 
+        // $(this).animate({width:800, height:800})
+      
+      return 
+    }
       $(curr).insertBefore(this);
 
     //   $(curr).animate({
