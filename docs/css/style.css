@@ -147,6 +147,8 @@ padding-right: 10px;
   position: relative;
 }
 
+
+
   .timeline:before {
       top: 0;
       bottom: 0;
@@ -155,11 +157,12 @@ padding-right: 10px;
       width: 3px;
       background-color: #eeeeee;
       left: 50%;
+      outline: solid #eee 2px ;
       margin-left: -1.5px;
   }
 
   .timeline > li {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       position: relative;
   }
 
@@ -181,6 +184,15 @@ padding-right: 10px;
 
       .timeline > li:after {
           clear: both;
+      }
+      .timeline img.timeline-image {
+        height: 90px;
+        margin-left: 100px;
+      }
+      .timeline .timeline-inverted img.timeline-image {
+        height: 90px;
+        margin-right: 100px;
+        border-radius: 4px;
       }
 
       .timeline > li > .timeline-panel {
